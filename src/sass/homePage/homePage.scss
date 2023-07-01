@@ -1,0 +1,14 @@
+.homepage-container {
+  width: calc(100vw - 250px);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+
+  p {
+    color: #6b6a6a;
+    text-align: center;
+    font-size: 40px;
+  }
+}

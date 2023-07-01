@@ -1,0 +1,194 @@
+.buttons-page {
+  padding-left: 3rem;
+  .page-title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    color: #4f4f4f;
+  }
+  margin-bottom: 50px;
+}
+
+.button {
+  height: 36px;
+  width: 81px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #2962ff10;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .start-icon {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+
+  .end-icon {
+    margin-left: 10px;
+    font-size: 20px;
+  }
+
+  transition: transform 0.1s ease;
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
+
+.buttons-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 40px;
+  column-gap: 10px;
+  div {
+    p {
+      font-family: "Ubuntu Mono", monospace;
+      font-size: 12px;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.button-wrapper-0 {
+  grid-column: 1 / 2;
+  grid-row: 1;
+}
+
+.button-wrapper-1 {
+  grid-column: 2 / 3;
+  grid-row: 1;
+}
+.button-wrapper-2 {
+  grid-column: 1 / 2;
+  grid-row: 2;
+}
+
+.button-wrapper-3 {
+  grid-column: 2 / 3;
+  grid-row: 2;
+}
+
+.button-wrapper-4 {
+  grid-column: 1 / 2;
+  grid-row: 3;
+}
+
+.button-wrapper-5 {
+  grid-column: 2 / 3;
+  grid-row: 3;
+}
+
+.button-wrapper-6 {
+  grid-column: 1 / 2;
+  grid-row: 4;
+}
+
+.button-wrapper-7 {
+  grid-column: 1 / 2;
+  grid-row: 5;
+}
+
+.button-wrapper-8 {
+  grid-column: 2 / 3;
+  grid-row: 5;
+}
+
+.button-wrapper-9 {
+  grid-column: 1 / 2;
+  grid-row: 6;
+}
+
+.button-wrapper-10 {
+  grid-column: 2 / 3;
+  grid-row: 6;
+}
+.button-wrapper-11 {
+  grid-column: 3 / 4;
+  grid-row: 6;
+}
+
+.button-wrapper-12 {
+  grid-column: 4 / 5;
+  grid-row: 6;
+}
+.button-wrapper-13 {
+  grid-column: 1 / 2;
+  grid-row: 7;
+}
+
+.button-wrapper-14 {
+  grid-column: 2 / 3;
+  grid-row: 7;
+}
+
+.button-wrapper-15 {
+  grid-column: 3 / 4;
+  grid-row: 7;
+}
+
+.button-wrapper-16 {
+  grid-column: 4 / 5;
+  grid-row: 7;
+}
+
+.button-wrapper-17 {
+  grid-column: 1 / 2;
+  grid-row: 8;
+}
+
+.button-wrapper-18 {
+  grid-column: 2 / 3;
+  grid-row: 8;
+}
+
+.button-wrapper-19 {
+  grid-column: 3 / 4;
+  grid-row: 8;
+}
+
+.button-wrapper-20 {
+  grid-column: 1 / 2;
+  grid-row: 9;
+}
+
+.button-wrapper-21 {
+  grid-column: 2 / 3;
+  grid-row: 9;
+}
+
+.button-wrapper-22 {
+  grid-column: 3 / 4;
+  grid-row: 9;
+}
+
+.button-wrapper-23 {
+  grid-column: 4 / 5;
+  grid-row: 9;
+}
+
+.button-wrapper-24 {
+  grid-column: 1 / 2;
+  grid-row: 10;
+}
+
+.button-wrapper-25 {
+  margin-top: 15px;
+  grid-column: 2 / 3;
+  grid-row: 10;
+}
+
+.button-wrapper-26 {
+  margin-top: 15px;
+  grid-column: 3 / 4;
+  grid-row: 10;
+}
+
+.button-wrapper-27 {
+  margin-top: 15px;
+  grid-column: 4 / 5;
+  grid-row: 10;
+}
